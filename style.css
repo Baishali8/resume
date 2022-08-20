@@ -262,6 +262,12 @@ body{
 
 /* Media Queries */
 
+@media screen and (max-width:1200px){
+    .right-title::after{
+        width: 40%;
+    }
+}
+
 @media screen and (max-width:823px){
     .right-title::after{
         width: 40%;
@@ -285,7 +291,7 @@ body{
         grid-column: span 4;
     }
 }
-@media screen and (max-width:1200px){
+@media screen and (max-width:900px){
     .main-content{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -309,7 +315,7 @@ body{
     }
 
     a{
-        font-size: .6rem;
+        font-size: .8rem;
     }
     .right-title::after{
         display: none;
@@ -333,7 +339,7 @@ body{
     }
 
     a{
-        font-size: .6rem;
+        font-size: .8rem;
     }
     .right-title::after{
         display: none;
